@@ -1,0 +1,222 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        Title="MainWindow" Height="700" Width="350">
+        <Grid>
+        <Border Padding="5">
+            <StackPanel>
+                <Grid>
+                    <telerik:RadLayoutControl SelectedItem="{x:Null}">
+                        <telerik:LayoutControlExpanderGroup IsExpanded="true">
+                            <telerik:LayoutControlExpanderGroup.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Title1" FontWeight="Bold" />
+                                </StackPanel>
+                            </telerik:LayoutControlExpanderGroup.Header>
+                            <StackPanel>
+                                <GroupBox Header="Title1">
+                                    <StackPanel>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="A" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <ComboBox  Grid.Column="1"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="B" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <ComboBox  Grid.Column="1"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="C" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <ComboBox  Grid.Column="1"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="D" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <ComboBox  Grid.Column="1"/>
+                                        </Grid>
+                                    </StackPanel>
+
+                                </GroupBox>
+
+                                <GroupBox Header="Title2">
+                                    <StackPanel>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="Show" Grid.Column="0" Margin="20,0,0,0"/>
+                                            <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                            <ComboBox  Grid.Column="1"/>
+                                        </Grid>
+                                    </StackPanel>
+                                </GroupBox>
+                                <GroupBox Header="Title3">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="0.5*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Button Content="Press" Width="50" Height="30"/>
+                                        <CheckBox IsChecked="True" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                                        <TextBlock Text="Show" Grid.Column="2" VerticalAlignment="Bottom"/>
+                                    </Grid>
+                                </GroupBox>
+
+                                <Button Content="Apply" Margin="0,10,10,5" Width="50" HorizontalAlignment="Right"/>
+
+                            </StackPanel>
+                            
+                            
+                        </telerik:LayoutControlExpanderGroup>
+                    </telerik:RadLayoutControl>
+                    
+                </Grid>
+                <Grid>
+                    <telerik:RadLayoutControl SelectedItem="{x:Null}">
+                        <telerik:RadLayoutControl SelectedItem="{x:Null}">
+                            <telerik:LayoutControlExpanderGroup IsExpanded="False">
+                                <telerik:LayoutControlExpanderGroup.Header>
+                                    <StackPanel>
+                                        
+                                        <TextBlock Text="Title2" FontWeight="Bold" />
+                                    </StackPanel>
+                                </telerik:LayoutControlExpanderGroup.Header>
+                                <StackPanel>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock Text="B:" Grid.Column="0" Margin="30,0,0,0"/>
+                                        <CheckBox IsChecked="True" Grid.Column="1" HorizontalAlignment="Right"/>
+                                        <TextBlock Text="Type" Grid.Column="2" Margin="0,0,0,0"/>
+                                        <CheckBox IsChecked="True" Grid.Column="3" HorizontalAlignment="Right"/>
+                                        <TextBlock Text="Type" Grid.Column="4" Margin="0,0,0,0"/>
+
+                                    </Grid>
+                                    <GroupBox Header="Title1">
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="A" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <ComboBox  Grid.Column="1"/>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="A" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <ComboBox  Grid.Column="1"/>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="A" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <TextBlock Text="Type" Grid.Column="1" Margin="0,0,0,0"/>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <CheckBox IsChecked="True" Grid.Column="0" Margin="30,0,0,0"/>
+                                                <ComboBox  Grid.Column="1"/>
+                                            </Grid>
+
+                                        </StackPanel>
+                                    </GroupBox>
+                                    <Button Content="Apply" Margin="0,10,10,5" Width="50" HorizontalAlignment="Right"/>
+                                </StackPanel>
+
+
+                            </telerik:LayoutControlExpanderGroup>
+                        </telerik:RadLayoutControl>
+
+                    </telerik:RadLayoutControl>
+                </Grid>
+            </StackPanel>
+        </Border>
+        </Grid>
+</Window>
